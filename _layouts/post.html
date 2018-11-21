@@ -11,7 +11,7 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
   <!-- Output author details if some exist. -->
     {% if author %}
-      <a href="{{ author.github }}" target="_blank"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span></a>{% endif %}</p>
+      <a href="{{ author.github }}" target="_blank"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span></a></p>
     {% endif %}
   </header>
 
